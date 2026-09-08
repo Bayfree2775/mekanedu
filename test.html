@@ -1,0 +1,355 @@
+Mekan Beknazarow, [08.09.2026 21:40]
+<!DOCTYPE html>
+<html lang="tk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Testler | MekanEdu</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0756d6, #00a8ff);
+            color: white;
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #ffe600;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .title h1 {
+            color: #0756d6;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .title p {
+            color: #666;
+        }
+
+        .question {
+            background: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .question h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            padding: 13px;
+            margin: 8px 0;
+            background: #f1f5fa;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        label:hover {
+            background: #dcecff;
+        }
+
+        input {
+            margin-right: 10px;
+        }
+
+        .submit {
+            display: block;
+            margin: 30px auto;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 30px;
+            background: #0756d6;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .submit:hover {
+            background: #003b99;
+        }
+
+        #result {
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            color: #0756d6;
+            margin: 25px;
+        }
+
+        footer {
+            background: #071a33;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <div class="logo">
+        📚 MekanEdu
+    </div>
+
+    <nav>
+        <a href="index.html">Baş sahypa</a>
+        <a href="dersler.html">Dersler</a>
+        <a href="test.html">Testler</a>
+    </nav>
+
+</header>
+
+
+<div class="container">
+
+
+    <div class="title">
+
+        <h1>📝 Bilim Testi</h1>
+
+        <p>
+            Soraglara jogap ber we öz bilimiňi barla!
+        </p>
+
+    </div>
+
+
+    <div class="question">
+
+        <h2>1. HTML näme üçin ulanylýar?</h2>
+
+        <label>
+            <input type="radio" name="q1" value="wrong">
+            Surat çekmek üçin
+        </label>
+
+        <label>
+            <input type="radio" name="q1" value="correct">
+            Web-sahypanyň gurluşyny döretmek üçin
+        </label>
+
+        <label>
+            <input type="radio" name="q1" value="wrong">
+            Kompýuteri öçürmek üçin
+        </label>
+
+    </div>
+
+
+    <div class="question">
+
+        <h2>2. 5 + 7 näçe bolýar?</h2>
+
+        <label>
+            <input type="radio" name="q2" value="wrong">
+            10
+        </label>
+
+        <label>
+            <input type="radio" name="q2" value="correct">
+            12
+        </label>
+
+        <label>
+            <input type="radio" name="q2" value="wrong">
+            14
+        </label>
+
+    </div>
+
+
+    <div class="question">
+
+Mekan Beknazarow, [08.09.2026 21:40]
+<h2>3. CSS näme üçin ulanylýar?</h2>
+
+        <label>
+            <input type="radio" name="q3" value="correct">
+            Web-sahypanyň dizaýnyny düzmek üçin
+        </label>
+
+        <label>
+            <input type="radio" name="q3" value="wrong">
+            Diňe matematika çözmek üçin
+        </label>
+
+        <label>
+            <input type="radio" name="q3" value="wrong">
+            Kompýuteri arassalamak üçin
+        </label>
+
+    </div>
+
+
+    <div class="question">
+
+        <h2>4. Ýeriň tebigy hemrasy näme?</h2>
+
+        <label>
+            <input type="radio" name="q4" value="correct">
+            Aý
+        </label>
+
+        <label>
+            <input type="radio" name="q4" value="wrong">
+            Mars
+        </label>
+
+        <label>
+            <input type="radio" name="q4" value="wrong">
+            Gün
+        </label>
+
+    </div>
+
+
+    <div class="question">
+
+        <h2>5. 10 × 3 näçe?</h2>
+
+        <label>
+            <input type="radio" name="q5" value="wrong">
+            20
+        </label>
+
+        <label>
+            <input type="radio" name="q5" value="correct">
+            30
+        </label>
+
+        <label>
+            <input type="radio" name="q5" value="wrong">
+            40
+        </label>
+
+    </div>
+
+
+    <button class="submit" onclick="checkTest()">
+        Netijäni görkez 🚀
+    </button>
+
+
+    <div id="result"></div>
+
+
+</div>
+
+
+<footer>
+
+    <p>
+        © 2026 Mekan Beknazarow | MekanEdu
+    </p>
+
+</footer>
+
+
+<script>
+
+function checkTest() {
+
+    let questions = document.querySelectorAll(
+        'input[type="radio"]:checked'
+    );
+
+    let score = 0;
+
+    questions.forEach(function(answer) {
+
+        if (answer.value === "correct") {
+            score++;
+        }
+
+    });
+
+
+    let result = document.getElementById("result");
+
+    if (questions.length < 5) {
+
+        result.innerHTML =
+            "⚠️ Hemme soraglara jogap ber!";
+
+        return;
+    }
+
+
+    if (score === 5) {
+
+        result.innerHTML =
+            "🏆 Ajaýyp! 5 / 5 — Hemmesi dogry!";
+
+    } else if (score >= 3) {
+
+        result.innerHTML =
+            "👏 Gowy! " + score + " / 5 dogry!";
+
+    } else {
+
+        result.innerHTML =
+            "💪 Has köp türgenleş! " + score + " / 5 dogry.";
+
+    }
+
+}
+
+</script>
+
+
+</body>
+
+</html>
