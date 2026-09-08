@@ -1,0 +1,317 @@
+Mekan Beknazarow, [08.09.2026 21:36]
+<!DOCTYPE html>
+<html lang="tk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mekan Beknazarow | Okuwçy Kömekçisi</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+   body {
+    background: #f4f7fb;
+            color: #blue;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0756d6, #00a8ff);
+            color: white;
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #ffe600;
+        }
+
+        .hero {
+            min-height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(
+                rgba(0, 90, 200, 0.08),
+                rgba(0, 170, 255, 0.03)
+            );
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            color: #red;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 19px;
+            color: #555;
+            max-width: 650px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 16px 35px;
+            background: #7c3aed;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #5b21b6;
+            transform: translateY(-5px);
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            padding: 50px 8%;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card h3 {
+            color: #0756d6;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        footer {
+            background: #071a33;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+      #message {
+    margin-top: 20px;
+    color: #0756d6;
+    font-size: 20px;
+    font-weight: bold;
+    .dark {
+    background: #101827;
+    color: white;
+}
+
+.dark .card {
+    background: #1b2638;
+    color: white;
+}
+
+.dark .card p {
+    color: #cbd5e1;
+}
+        
+
+        @media (max-width: 800px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            📚 MekanEdu
+        </div>
+
+        <nav>
+            <a href="#">Baş sahypa</a>
+            <a href="dersler.html">Dersler</a>
+            <a href="test.html">Testler</a>
+            <a href="barada.html">Biz barada</a>
+            <a href="kalkulyator.html">Kalkulýator</a>
+            <button onclick="darkMode()">🌙</button>
+
+
+           <button onclick="darkMode()" class="dark-btn">🌙</button>
+        </nav>
+
+    </header>
+
+
+    <section class="hero">
+
+        <div>
+
+            <h1>Okuwçy Kömekçisine hoş geldiňiz!</h1>
+
+            <p>
+                Dersleriňi öwren, bilimleriňi barla,
+                testleri çöz we täze zatlary öwren.
+                Ähli zerur zatlar bir ýerde!
+            </p>
+
+       <button class="button" onclick="alert('Okuw başlady! 🚀')">
+    Başlaly 🚀
+</button>
+<p id="message"></p>
+
+        </div>
+
+    </section>
+<div class="search-box">
+
+    <input
+        type="text"
+        id="search"
+        placeholder="🔎 Ders gözle..."
+    >
+
+    <button onclick="searchSubject()">
+        Gözle
+    </button>
+
+</div>
+
+    <section class="cards">
+
+Mekan Beknazarow, [08.09.2026 21:36]
+<div class="card">
+            <h3>📚 Dersler</h3>
+            <p>
+                Dürli dersler boýunça peýdaly
+                maglumatlary öwren.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📝 Testler</h3>
+            <p>
+                Testleri çöz we öz bilim derejäňi
+                barla.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💡 Peýdaly maglumatlar</h3>
+            <p>
+                Okuw üçin zerur maslahatlary,
+                formulalary we maglumatlary tap.
+            </p>
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © 2026 Mekan Beknazarow | Ähli hukuklar goralandyr.
+        </p>
+
+    </footer>
+<script>
+
+function basla() {
+    alert("Okuw başlady! 🚀");
+}
+
+</script>
+<script>
+
+function showMessage() {
+
+    document.getElementById("message").innerHTML =
+        "🎉 Okuw başlady! MekanEdu bilen üstünlikli öwren!";
+
+}
+
+</script>
+<script>
+
+function searchSubject() {
+
+    let search = document.getElementById("search").value.toLowerCase();
+
+    if (search === "matematika") {
+
+        window.location.href = "dersler.html";
+
+    } else if (search === "informatika") {
+
+        window.location.href = "dersler.html";
+
+    } else if (search === "fizika") {
+
+        window.location.href = "dersler.html";
+
+    } else {
+
+        alert("Bu ders tapylmady 😔");
+
+    }
+
+}
+
+</script>
+<script>
+
+function darkMode() {
+
+    document.body.classList.toggle("dark");
+
+}
+
+</script>
+</body>
+</html>
