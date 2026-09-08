@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Biz barada | MekanEdu</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0756d6, #00a8ff);
+            color: white;
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #ffe600;
+        }
+
+        .about {
+            max-width: 850px;
+            margin: 60px auto;
+            padding: 20px;
+        }
+
+        .box {
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            margin: auto;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #0756d6, #00a8ff);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 45px;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #0756d6;
+            margin-top: 25px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            color: #555;
+        }
+
+        p {
+            margin-top: 20px;
+            color: #666;
+            line-height: 1.7;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 35px;
+        }
+
+        .info div {
+            background: #eef5ff;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        .info strong {
+            display: block;
+            color: #0756d6;
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        footer {
+            background: #071a33;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 700px) {
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .box {
+                padding: 30px 20px;
+            }
+
+            .info {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <div class="logo">
+        📚 MekanEdu
+    </div>
+
+    <nav>
+        <a href="index.html">Baş sahypa</a>
+        <a href="dersler.html">Dersler</a>
+        <a href="test.html">Testler</a>
+        <a href="barada.html">Biz barada</a>
+    </nav>
+
+</header>
+
+
+<section class="about">
+
+    <div class="box">
+
+        <div class="avatar">
+            MB
+        </div>
+
+        <h1>Mekan Beknazarow</h1>
+
+        <h2>👨‍💻 Web-saýt awtory</h2>
+
+        <p>
+            Salam! Men Mekan Beknazarow.
+            Bu web-saýty mekdep taslamasy hökmünde
+            okuwçylara bilim almakda we öz bilimlerini
+            barlamakda kömek etmek maksady bilen döretdim.
+        </p>
+
+        <div class="info">
+
+            <div>
+                <strong>📚</strong>
+                Okuw
+            </div>
+
+            <div>
+                <strong>💻</strong>
+                Tehnologiýa
+            </div>
+
+            <div>
+                <strong>🚀</strong>
+                Döredijilik
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>
+        © 2026 Mekan Beknazarow | MekanEdu
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>
